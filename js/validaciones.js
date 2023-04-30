@@ -1,17 +1,17 @@
 
 
 function validarFormulario() {
-    var firstname = document.getElementById("firstname").value;
-    var lastname = document.getElementById("lastname").value;
+    var nombre = document.getElementById("nombre").value;
+    var apellido = document.getElementById("apellido").value;
     var telefono = document.getElementById("telefono").value;
     var email = document.getElementById("email").value;
 
-    if (firstname == "") {
+    if (nombre == "") {
         alert("Por favor ingrese su nombre");
         return false;
     }
 
-    if (lastname == "") {
+    if (apellido == "") {
         alert("Por favor ingrese su apellido");
         return false;
     }
