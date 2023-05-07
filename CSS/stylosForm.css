@@ -1,0 +1,187 @@
+body {
+
+    font-family: 'Open Sans', sans-serif;
+    background-color: #50a7a9;
+
+
+} 
+
+
+.menu {
+    size: cover;
+    background-color: #F9B53C;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+   float: center;
+    text-align: center
+}
+
+.header {
+
+  background-image: url('https://placehold.it/1000x400');
+background-repeat: no-repeat;
+/*Centramos el fondo al centro*/
+background-position: center;
+/*Y le decimos que siempre ocupe el ancho y el alto con esto*/
+background-size: cover;
+} 
+.menu ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menu a {
+    display: block;
+    padding: 0.5em;
+    background-color: #F9B53C;
+    text-decoration: none;
+    color: #191C26;
+}
+
+.menu a:hover {
+    background-color: #CC673B;
+}
+
+.menu ul li ul {
+    display: none;
+}
+
+.menu ul li a:hover+ul,
+.menu ul li ul:hover {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    object-fit: cover;
+}
+
+
+.Seccion-grande {
+    background-color: rgb(135, 223, 235);
+}
+
+
+.Seccion-3-bloques {
+    background-color: #CC673B;
+    width: 100%;
+    overflow: hidden;
+    /* display: flex; */
+    /* display: grid; */
+
+        /* text-align: center */
+    position: relative;
+}
+
+
+.Bloque {
+    margin: 3em;
+    padding: 1em;
+    background-color: blueviolet;
+    float: center;
+    width: 20%;
+    height: 20%;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+.Footer {
+    background-color: #F9B53C;
+}
+
+
+
+.mi-iframe {
+    width: 100px;
+    height: 50px;
+  }
+  
+  /* CSS pantallas de 320px o superior */
+  @media (min-width: 320px) {
+  
+    .mi-iframe {
+      width: 200px;
+      height: 150px;
+    } 
+  
+  }
+ /*.form-container {
+	margin: auto;
+	margin-top: 50px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	width: 50%;
+	background-color: #fff;
+	box-shadow: 0 0 10px #ccc;
+} */
+h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+    margin: auto;
+	margin-top: 50px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	width: 50%;
+	background-color:white;
+	box-shadow: 0 0 10px #ccc;
+}
+label {
+	display: inline-block;
+	width: 100px;
+	margin-bottom: 10px;
+}
+
+input[type=text], input[type=email], input[type=tel], [type=textarea] {
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+    width: 50%;
+
+}
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 20px;
+    resize: vertical;
+  }
+
+input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+} 
+button[type=reset] {
+	background-color:#CC673B;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 4px;
+	cursor: pointer;
+}
