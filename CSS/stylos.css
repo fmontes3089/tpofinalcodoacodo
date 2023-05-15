@@ -13,6 +13,7 @@ body {
 
 }
 */
+
 .menu {
     size: cover;
     background-color: #F9B53C;
@@ -26,7 +27,18 @@ body {
     float: center;
     text-align: center
 }
-
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu ul li {
+    display: inline-block;
+  }
+.menu ul li.derecha {
+    float: right;
+  }
 header {
 
     background-image: url('https://placehold.it/1000x400');
@@ -62,12 +74,12 @@ header {
 .menu ul li ul {
     display: none;
 }
-
+/*
 .menu ul li a:hover+ul,
 .menu ul li ul:hover {
     display: block;
 }
-
+*/
 img {
     max-width: 100%;
     max-height: 100%;
