@@ -20,7 +20,9 @@ body {
    float: center;
     text-align: center
 }
-
+.api{
+    text-align: center;
+}
 .header {
 
   background-image: url('https://placehold.it/1000x400');
